@@ -14,35 +14,35 @@ $paragraph-indent: true  !default;  //true,false(default)$indent-var: 1.3em !def
 
 /* Google Fonts typefaces -- script from _includes/head/custom.html */
 
-$pt-serif      : "PT Serif";
-$pt-sans-narrow: "PT Sans Narrow";
+$pt-serif      : 'PT Serif';
+$pt-sans-narrow: 'PT Sans Narrow';
 
 /* system typefaces */
 
 $serif         : $pt-serif Georgia, Times, serif !default;
 $sans-serif    : $pt-sans-narrow,
                    -apple-system,
-                   ".SFNSText-Regular",
-                   "San Francisco",
-                   "Roboto",
-                   "Segoe UI",
-                   "Helvetica Neue",
-                   "Lucida Grande",
+                   '.SFNSText-Regular',
+                   'San Francisco',
+                   'Roboto',
+                   'Segoe UI',
+                   'Helvetica Neue',
+                   'Lucida Grande',
                    Arial,
                    sans-serif !default;
-$monospace     : Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace     : Monaco, Consolas, 'Lucida Console', monospace !default;
 
 /* sans serif typefaces */
 
 $sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$helvetica: Helvetica, 'Helvetica Neue', Arial, sans-serif !default;
 
 /* serif typefaces */
 
 $georgia: Georgia, serif !default;
 $times: Times, serif !default;
-$bodoni: "Bodoni MT", serif !default
-$calisto: "Calisto MT", serif !default;
+$bodoni: 'Bodoni MT', serif !default;
+$calisto: 'Calisto MT', serif !default;
 $garamond: Garamond, serif !default;
 $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif !default;
